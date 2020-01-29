@@ -1,0 +1,98 @@
+body{
+  background-color: #F7F9FC;
+  font-family: Merriweather;
+  color: #575F7D;
+  font-size: 12px;
+  line-height: 1.6 ;
+}
+ h1{
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+ }
+
+
+ h2{
+  color: #03A87C;
+ }
+
+.container{
+  background-color: #F7F9FC;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.header{
+  background-color: white;
+  text-align: center;
+  width: 75%;
+  height: 300px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 5%;
+}
+
+#image {
+  border-radius: 50%;
+  border: 3px solid lightgrey;
+}
+
+ .blue-button{
+  display; flex;
+  text-decoration: none;
+  font-weight: 700;
+  background-color: #575F93;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+ }
+
+ .blue-button:hover{
+  background-color: #A0ADBE;
+ }
+
+.icon{
+  font-size: 36px;
+  color: rgba(87, 95, 147,0.7);
+}
+.footer ul {
+  padding: 0px;
+}
+
+.footer li {
+  display: inline;
+  padding: 0px 4px;
+}
+
+.footer{
+  background-color: white;
+  width: 75%;
+  height: 100px;
+  margin: auto;
+  border: 10px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
